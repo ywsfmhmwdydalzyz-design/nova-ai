@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">نوفا (Nova AI)</string>
+    <string name="app_tagline">بوابتك الذكية للمحادثة، وتوليد الصور والفيديوهات</string>
+    <string name="nav_chat">المحادثة</string>
+    <string name="nav_image">توليد الصور</string>
+    <string name="nav_video">توليد الفيديو</string>
+</resources>

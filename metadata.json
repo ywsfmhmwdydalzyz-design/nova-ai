@@ -1,0 +1,6 @@
+{
+  "name": "نوفا (Nova AI)",
+  "description": "بوابتك الذكية للمحادثة، وتوليد الصور والفيديوهات",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

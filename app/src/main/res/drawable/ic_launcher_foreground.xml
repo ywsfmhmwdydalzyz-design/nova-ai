@@ -1,0 +1,82 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Subtle Orbit Ring -->
+    <path
+        android:strokeWidth="1.2"
+        android:strokeColor="#3300F0FF"
+        android:strokeAlpha="0.6"
+        android:pathData="M 54,26 A 28,28 0 1,0 54,82 A 28,28 0 1,0 54,26" />
+
+    <!-- Nova Glowing "N" Left Stem -->
+    <path
+        android:pathData="M 36,34 L 43,34 L 43,74 L 36,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="34"
+                android:endX="43"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FF00F0FF" android:offset="0.0" />
+                <item android:color="#FF38BDF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Nova Glowing "N" Diagonal Stroke -->
+    <path
+        android:pathData="M 40,34 L 68,70 L 72,70 L 44,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="34"
+                android:endX="72"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#FF00F0FF" android:offset="0.0" />
+                <item android:color="#FF8B5CF6" android:offset="0.5" />
+                <item android:color="#FFEC4899" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Nova Glowing "N" Right Stem -->
+    <path
+        android:pathData="M 65,34 L 72,34 L 72,74 L 65,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="65"
+                android:startY="34"
+                android:endX="72"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FFA855F7" android:offset="0.0" />
+                <item android:color="#FFEC4899" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central Nova Sparkle Star -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M 54,46 Q 54,54 46,54 Q 54,54 54,62 Q 54,54 62,54 Q 54,54 54,46 Z" />
+
+    <!-- Center cyan glowing core -->
+    <path
+        android:fillColor="#FF00F0FF"
+        android:pathData="M 54,53 A 1,1 0 1,0 54,55 A 1,1 0 1,0 54,53" />
+
+    <!-- Satellite Glowing Accents -->
+    <path
+        android:fillColor="#FF00F0FF"
+        android:pathData="M 69,40 A 1.8,1.8 0 1,0 69,43.6 A 1.8,1.8 0 1,0 69,40" />
+
+    <path
+        android:fillColor="#FFEC4899"
+        android:pathData="M 39,68 A 1.6,1.6 0 1,0 39,71.2 A 1.6,1.6 0 1,0 39,68" />
+</vector>
